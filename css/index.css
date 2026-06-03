@@ -1,108 +1,223 @@
-/* header */
-nav {
-  background: #1a1410;
-  padding: 0 1.25rem;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 3px solid #c8372d;
-}
-.logo {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 22px;
-  letter-spacing: 0.1em;
-  color: #f0ebe1;
-}
+/* mobil */
+@media (max-width: 600px) {
+  /* header */
+  nav {
+    background: #1a1410;
+    padding: 0 1.25rem;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #c8372d;
+  }
+  .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    color: #f0ebe1;
+  }
 
-.nav_links {
-  display: flex;
-  list-style: none;
-  gap: 0.5rem;
-  font-size: small;
-  a {
+  .nav_links {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    font-size: small;
+    a {
+      color: #9a8e7e;
+      text-decoration: none;
+    }
+    .link_index {
+      color: #c8372d;
+      text-decoration: none;
+    }
+  }
+  body {
+    background-color: #f0ebe1;
+  }
+
+  /* main section */
+  .hero {
+    padding: 3rem 1.25rem 2rem;
+    border-bottom: 1px solid #d4c9b8;
+  }
+  .hero_text {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #c8372d;
+    margin-bottom: 0.75rem;
+  }
+  .hero_navn {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(4rem, 16vw, 9rem);
+    line-height: 0.9;
+    color: #1a1410;
+    margin-bottom: 1rem;
+    span {
+      color: #c8372d;
+    }
+  }
+  .hero_p {
+    font-size: 0.9rem;
     color: #9a8e7e;
+    line-height: 1.75;
+    max-width: 480px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border-left: 2px solid #d4c9b8;
+  }
+  /* buttons */
+  .button_dark {
+    font-family: "DM Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    background: #1a1410;
+    border: 2px solid #1a1410;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  .button_lys {
+    font-family: "DM Mono", monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    background: transparent;
+    border: 2px solid #1a1410;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .button_link {
     text-decoration: none;
+    color: #f0ebe1;
   }
-  .link_index {
-    color: #c8372d;
+  .button_link_2 {
     text-decoration: none;
+    color: #1a1410;
   }
-}
-body {
-  background-color: #f0ebe1;
-}
-/* main section */
-.hero {
-  padding: 3rem 1.25rem 2rem;
-  border-bottom: 1px solid #d4c9b8;
-}
-.hero_text {
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  color: #c8372d;
-  margin-bottom: 0.75rem;
-}
-.hero_navn {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: clamp(4rem, 16vw, 9rem);
-  line-height: 0.9;
-  color: #1a1410;
-  margin-bottom: 1rem;
-  span {
-    color: #c8372d;
-  }
-}
-.hero_p {
-  font-size: 0.9rem;
-  color: #9a8e7e;
-  line-height: 1.75;
-  max-width: 480px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  padding-left: 1rem;
-  border-left: 2px solid #d4c9b8;
-}
-/* buttons */
-.button_dark {
-  font-family: "DM Mono", monospace;
-  font-size: 11px;
-  letter-spacing: 0.12em;
-  background: #1a1410;
-  border: 2px solid #1a1410;
-  padding: 0.75rem 1.5rem;
-  cursor: pointer;
-}
-.button_lys {
-  font-family: "DM Mono", monospace;
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  background: transparent;
-  border: 2px solid #1a1410;
-  padding: 0.75rem 1.5rem;
-  cursor: pointer;
-}
-.buttons {
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-}
-.button_link {
-  text-decoration: none;
-  color: #f0ebe1;
-}
-.button_link_2 {
-  text-decoration: none;
-  color: #1a1410;
-}
 
-/* footer */
-footer {
-  font-size: small;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* footer */
+  footer {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+/* desktop */
+@media (min-width: 601px) {
+  /* header */
+  nav {
+    background: #1a1410;
+    padding: 0 1.25rem;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #c8372d;
+  }
+  .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    color: #f0ebe1;
+  }
+
+  .nav_links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    font-size: small;
+    a {
+      color: #9a8e7e;
+      text-decoration: none;
+    }
+    .link_index {
+      color: #c8372d;
+      text-decoration: none;
+    }
+  }
+  body {
+    background-color: #f0ebe1;
+  }
+
+  /* main section */
+  .hero {
+    padding: 3rem 1.25rem 2rem;
+    border-bottom: 1px solid #d4c9b8;
+  }
+  .hero_text {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: #c8372d;
+    margin-bottom: 0.75rem;
+  }
+  .hero_navn {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(4rem, 16vw, 9rem);
+    line-height: 0.9;
+    color: #1a1410;
+    margin-bottom: 1rem;
+    span {
+      color: #c8372d;
+    }
+  }
+  .hero_p {
+    font-size: 0.9rem;
+    color: #9a8e7e;
+    line-height: 1.75;
+    max-width: 480px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    border-left: 2px solid #d4c9b8;
+  }
+  /* buttons */
+  .button_dark {
+    font-family: "DM Mono", monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    background: #1a1410;
+    border: 2px solid #1a1410;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  .button_lys {
+    font-family: "DM Mono", monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    background: transparent;
+    border: 2px solid #1a1410;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+  }
+  .buttons {
+    display: flex;
+    gap: 4rem;
+  }
+  .button_link {
+    text-decoration: none;
+    color: #f0ebe1;
+  }
+  .button_link_2 {
+    text-decoration: none;
+    color: #1a1410;
+  }
+
+  /* footer */
+  footer {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
