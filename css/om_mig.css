@@ -57,6 +57,13 @@
     letter-spacing: 0.04em;
     color: #1a1410;
     line-height: 1;
+    span {
+      color: #c8372d;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      letter-spacing: 0.04em;
+      line-height: 1;
+    }
   }
   span {
     font-size: 11px;
@@ -127,7 +134,39 @@
     border: 5px solid #c8372d;
     border-radius: 0.5rem;
   }
-
+  h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: clamp(1rem, 8vw, 2rem);
+    letter-spacing: 0.04em;
+    color: #1a1410;
+    line-height: 1;
+    padding-top: 2rem;
+    span {
+      color: #c8372d;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(1rem, 8vw, 2rem);
+      letter-spacing: 0.04em;
+      line-height: 1;
+      padding-top: 2rem;
+    }
+  }
+  .text_første {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: #2c2520;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .text_første2 {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: #2c2520;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: justify;
+    border-bottom: 1px solid #d4c9b8;
+  }
   /* footer */
   footer {
     font-size: small;
@@ -193,6 +232,13 @@
     letter-spacing: 0.04em;
     color: #1a1410;
     line-height: 1;
+    span {
+      color: #c8372d;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      letter-spacing: 0.04em;
+      line-height: 1;
+    }
   }
   span {
     font-size: 11px;
@@ -255,12 +301,7 @@
   td:first-child {
     color: #c8372d;
   }
-  .liste {
-    font-size: 1rem;
-    color: #9a8e7e;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #d4c9b8;
-  }
+
   img {
     border: 5px solid #c8372d;
     border-radius: 0.5rem;
@@ -280,7 +321,12 @@
   }
   .liste_grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 6rem;
+    font-size: 1rem;
+    color: #9a8e7e;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #d4c9b8;
   }
   /* footer */
   footer {
@@ -297,5 +343,30 @@
     color: #1a1410;
     line-height: 1;
     padding-top: 2rem;
+    span {
+      color: #c8372d;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(1rem, 8vw, 2rem);
+      letter-spacing: 0.04em;
+      line-height: 1;
+      padding-top: 2rem;
+    }
+  }
+  .text_første {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: #2c2520;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .text_første2 {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: #2c2520;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    text-align: justify;
+    border-bottom: 1px solid #d4c9b8;
   }
 }
