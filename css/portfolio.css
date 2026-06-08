@@ -127,6 +127,15 @@ img {
   .grid_accordions {
     padding: 10px;
   }
+  /* footer */
+  footer {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #d4c9b8;
+  }
 }
 /* desktop */
 @media (min-width: 601px) {
@@ -264,5 +273,14 @@ img {
   .gap_accordions {
     display: grid;
     row-gap: 1rem;
+  }
+  /* footer */
+  footer {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid #d4c9b8;
   }
 }
