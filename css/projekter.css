@@ -155,7 +155,7 @@ video {
     text-align: center;
     border-top: 1px solid #d4c9b8;
   }
-  .button {
+  .button_link {
     font-family: "DM Mono", monospace;
     font-size: 11px;
     letter-spacing: 0.12em;
