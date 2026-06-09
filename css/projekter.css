@@ -173,6 +173,7 @@ video {
   .button_align {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
   }
   .processe_img {
     margin-top: 2rem;
